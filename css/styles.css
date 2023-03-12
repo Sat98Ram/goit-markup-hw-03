@@ -191,8 +191,7 @@ img {
   text-align: center;
   width: 1440px;
   background-color: var(--dark-background-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 472px 188px 472px;
 }
 
 .hero-title {
@@ -308,7 +307,6 @@ img {
 
 .button-line {
   display: flex;
-  justify-content: center;
 }
 
 .button {
