@@ -307,6 +307,7 @@ img {
 
 .button-line {
   display: flex;
+  justify-content: center;
 }
 
 .button {
@@ -336,6 +337,7 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 72px;
 }
 
 .work-link {
