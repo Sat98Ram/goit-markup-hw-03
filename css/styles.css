@@ -184,13 +184,17 @@ img {
 /* Main Page Content */
 
 /* Hero */
+
 .hero {
   text-align: center;
   width: 1440px;
   background-color: var(--dark-background-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
+  width: 496px;
   font-size: 56px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -218,6 +222,9 @@ img {
 }
 
 /* Features */
+.features {
+  display: flex;
+}
 
 .feature-item-title {
   font-weight: 500;
@@ -226,10 +233,13 @@ img {
   letter-spacing: 0.02em;
 }
 
+.feature-item:not(:last-child) {
+  margin-right: 24px;
+}
+
 .feature-item-text {
-  margin-top: 8px;
   width: 264px;
-  height: 72px;
+  margin-top: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
