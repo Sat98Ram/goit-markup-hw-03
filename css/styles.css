@@ -302,7 +302,6 @@ img {
 
 .filters {
   padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .button-line {
@@ -337,6 +336,7 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 72px;
 }
 
@@ -364,5 +364,4 @@ img {
   border: 1px solid;
   border-color: var(--light-background-color);
   width: 360px;
-  margin-right: 24px;
 }
