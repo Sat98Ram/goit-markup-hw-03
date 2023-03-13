@@ -352,6 +352,7 @@ img {
 }
 
 .work-type {
+  margin-top: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -371,4 +372,13 @@ img {
 
 .work-card:nth-child(3n) {
   margin-right: 0;
+}
+
+.card-bottom {
+  border: 1px solid;
+  border-color: #e7e9fc;
+  border-top: transparent;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
