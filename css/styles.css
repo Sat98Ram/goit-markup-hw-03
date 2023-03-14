@@ -387,7 +387,7 @@ img {
   background-color: var(--primary-white-color);
   width: 360px;
   margin-right: 24px;
-  margin-top: 24px;
+  margin-top: 48px;
 }
 
 .work-card:nth-child(-n + 3) {
