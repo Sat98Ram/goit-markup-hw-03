@@ -217,9 +217,10 @@ img {
 }
 
 .hero-button {
+  width: 169px;
+  height: 56px;
   margin-top: 48px;
   cursor: pointer;
-  padding: 16px 32px 16px 32px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
